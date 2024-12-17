@@ -19,7 +19,7 @@ namespace seminario_aleatoridade
         private float filterWeight;
         private int variation = 15;
 
-        public Randomizer(float maxTime)
+        public Randomizer(float maxTime, float weight, int target, int _variation)
         {
             maxTimeToRandomize = maxTime;
             random = new Random(Guid.NewGuid().GetHashCode());
@@ -27,8 +27,13 @@ namespace seminario_aleatoridade
 
 
             isFiltered = false;
-            filterTarget = 50; // Valor padrão para o qual os números tenderão
-            filterWeight = 0.25f; // Peso
+            filterTarget = target; //valor padrão para o qual os números tenderão
+            filterWeight = weight; //Peso 
+            variation = _variation;
+
+            dataManager.target = filterTarget;
+            dataManager.peso = filterWeight;
+            dataManager.variacao = variation;
         }
 
         public void Update(GameTime gameTime)
@@ -64,12 +69,12 @@ namespace seminario_aleatoridade
 
         private int GenerateFilteredRandom()
         {
-            // Determina se favorece o número-alvo com base no peso
+            //determina se favorece o número-alvo com base no peso
             bool favorTarget = random.NextDouble() < filterWeight;
 
             if (favorTarget)
             {
-                // Gera proximo ao valor-alvo
+                //Gera proximo ao valor-alvo
                 int deviation = random.Next(-variation, variation + 1); 
                 return Clamp(filterTarget + deviation, 1, 100);
             }
@@ -103,14 +108,12 @@ namespace seminario_aleatoridade
             {
                 isFiltered = true;
                 DataManager.Instance.aleatoridadeFiltrada = isFiltered;
-                //Console.WriteLine($"Aleatoriedade filtrada: {(_filteredRandomEnabled ? "Ativada" : "Desativada")}");
             }
 
             if (keyboardState.IsKeyDown(Keys.G))
             {
                 isFiltered = false;
                 DataManager.Instance.aleatoridadeFiltrada = isFiltered;
-                //Console.WriteLine($"Aleatoriedade filtrada: {(_filteredRandomEnabled ? "Ativada" : "Desativada")}");
             }
         }
     }

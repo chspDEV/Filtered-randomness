@@ -49,7 +49,7 @@ namespace seminario_aleatoridade
 
             for (int i = 0; i < randomizers; i++)
             {
-                Randomizer r = new Randomizer(60f);
+                Randomizer r = new Randomizer(60f, 0.25f, 50, 15);
                 data.GetRandomizers().Add(r);
             }
         }
@@ -79,7 +79,6 @@ namespace seminario_aleatoridade
 
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
@@ -100,9 +99,16 @@ namespace seminario_aleatoridade
             }
             if (Keyboard.GetState().IsKeyDown(Keys.NumPad2)) //remove maxtime
             {
+                //fiz isso aqui pra nao ficar numero = 0 ou negativo
                 if (maxTimeToGenerate - numberToChangeMaxTime <= 0) { numberToChangeMaxTime /= 10; }
                 maxTimeToGenerate -= numberToChangeMaxTime;
                 data.UpdateMaxTime(maxTimeToGenerate);
+            }
+
+           
+            if (Keyboard.GetState().IsKeyDown(Keys.F9)) //reset
+            {
+                data.ResetNumberList();
             }
 
 

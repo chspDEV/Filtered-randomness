@@ -137,6 +137,16 @@ namespace seminario_aleatoridade
             }
             else
             {
+                //desenhando setups
+                var setupsText = "Peso: " + DataManager.Instance.peso.ToString() + "\n" +
+                                 "Numero Alvo: " + DataManager.Instance.target.ToString() + "\n" +
+                                 "Variacao: " + DataManager.Instance.variacao.ToString() + "\n";
+                                  
+                spriteBatch.DrawString(fonts[0],
+                                        setupsText,
+                                        new Vector2(10, 60),
+                                        Color.White);
+
                 //desenhando debug da aleatoridade filtrada
                 spriteBatch.DrawString(fonts[0], 
                                         "Aleatoridade Filtrada: " + DataManager.Instance.aleatoridadeFiltrada.ToString(), 
@@ -145,16 +155,16 @@ namespace seminario_aleatoridade
 
                 // Centralizar o gráfico
                 float graphWidth = 65 * (5 + 5); // Máx colunas * (largura barra + espaçamento)
-                float graphStartX = (DataManager.Instance.gameWidth - graphWidth) / 2f; // Centraliza horizontalmente
-                float graphStartY = DataManager.Instance.gameHeight - 200; // Ajusta posição vertical
+                float graphStartX = (DataManager.Instance.gameWidth - graphWidth) / 2f; 
+                float graphStartY = DataManager.Instance.gameHeight - 200; 
 
                 DrawNumberGraph(
                                     spriteBatch,
                                     DataManager.Instance.GetNumbers(),
                                     fonts[1],
-                                    new Vector2(50, DataManager.Instance.gameHeight - 150), // Ajuste da posição inicial
-                                    5,  // Largura da barra
-                                    300  // Altura máxima da barra
+                                    new Vector2(50, DataManager.Instance.gameHeight - 150), // Ajuste da posição 
+                                    5,  // Largura 
+                                    300  // Altura máxima
                                 );
             }
 

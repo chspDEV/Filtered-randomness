@@ -17,6 +17,9 @@ namespace seminario_aleatoridade
         private const int maxNumbersPerLine = 5;
 
         public bool aleatoridadeFiltrada = false;
+        public float peso;
+        public int target;
+        public int variacao;
 
         public int gameWidth { get; set; }
         public int gameHeight { get; set; }
@@ -37,19 +40,22 @@ namespace seminario_aleatoridade
             return allSortedNumbers;
         }
 
+        public void ResetNumberList()
+        {
+            numbersList.Clear();
+        }
+
+        public void ResetRandomizerList()
+        {
+            randomizersList.Clear();
+        }
+
         public List<int> GetNumbers() { return numbersList; }
 
         public List<Randomizer> GetRandomizers() { return randomizersList; }
 
         public void Update(GameTime gameTime)
         {
-            KeyboardState keyboardState = Keyboard.GetState();
-
-            if (keyboardState.IsKeyDown(Keys.F1))
-            {
-                numbersList.Clear();
-            }
-
             foreach (var randomizer in randomizersList)
             {
                 randomizer.Update(gameTime);
