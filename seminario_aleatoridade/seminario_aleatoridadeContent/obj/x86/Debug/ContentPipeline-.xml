@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Big.xnb</Output>
+      <Output>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Big.xnb</Output>
       <Time>2024-12-12T19:14:31.6508504-03:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Small.xnb</Output>
+      <Output>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Small.xnb</Output>
       <Time>2024-12-16T15:29:36.3888032-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -26,10 +26,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridadeContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridadeContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridadeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridadeContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

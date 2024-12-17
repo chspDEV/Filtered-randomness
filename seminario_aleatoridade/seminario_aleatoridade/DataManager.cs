@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 
 namespace seminario_aleatoridade
 {
@@ -42,6 +43,13 @@ namespace seminario_aleatoridade
 
         public void Update(GameTime gameTime)
         {
+            KeyboardState keyboardState = Keyboard.GetState();
+
+            if (keyboardState.IsKeyDown(Keys.F1))
+            {
+                numbersList.Clear();
+            }
+
             foreach (var randomizer in randomizersList)
             {
                 randomizer.Update(gameTime);

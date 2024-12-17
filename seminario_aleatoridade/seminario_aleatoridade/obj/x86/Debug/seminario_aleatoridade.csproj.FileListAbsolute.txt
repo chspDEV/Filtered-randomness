@@ -6,3 +6,11 @@ C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\s
 C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\obj\x86\Debug\seminario_aleatoridade.pdb
 C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Big.xnb
 C:\Jogos Programando\xna_estudos\seminario_aleatoridade\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Small.xnb
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Big.xnb
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\Content\Fonts\Small.xnb
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\seminario_aleatoridade.exe
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\bin\x86\Debug\seminario_aleatoridade.pdb
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\obj\x86\Debug\seminario_aleatoridade.csprojResolveAssemblyReference.cache
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\obj\x86\Debug\seminario_aleatoridade.exe
+C:\Jogos Programando\xna_estudos\seminario_aleatoridade\Filtered-randomness\seminario_aleatoridade\seminario_aleatoridade\obj\x86\Debug\seminario_aleatoridade.pdb
