@@ -1,6 +1,7 @@
-# Aleatoriedade Filtrada#
+# Aleatoriedade Filtrada #
 
 ![Linguagem Principal](https://img.shields.io/badge/C%23-100%25-blueviolet)
+![Framework](https://img.shields.io/badge/Microsoft%20XNA%204.0-legacy-orange)
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
 ![Licença](https://img.shields.io/badge/license-MIT-blue)
 
