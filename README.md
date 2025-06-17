@@ -1,4 +1,4 @@
-# Filtered Randomness in C#
+# Aleatoriedade Filtrada#
 
 ![Linguagem Principal](https://img.shields.io/badge/C%23-100%25-blueviolet)
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
