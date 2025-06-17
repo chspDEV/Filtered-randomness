@@ -20,6 +20,6 @@ Este repositório explora técnicas para gerar resultados aleatórios que seguem
 ## 🛠️ Tecnologias
 
 -   **Linguagem:** C#
--   **Plataforma:** .NET
--   **IDE:** Visual Studio
+-   **Framework**: Microsoft XNA Game Studio 4.0
+-   **IDE:** Visual Studio 2010
 
